@@ -1,0 +1,13 @@
+.layout-header {
+    background-color: #ffffff;
+    color: #2475ee;
+    text-align: center;
+    padding: 10px;
+}
+
+.layout-footer {
+    background-color: #fa0202;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
