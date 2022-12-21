@@ -1,4 +1,4 @@
-import a from 'react-router';
+import Link from 'next/link'
 function Footer() {
     return (
         <footer>
@@ -20,12 +20,12 @@ function Footer() {
                                 <p>Get the GRUB24 app and choose from 1000s of restaurants
                                     and hundreds of stores in multiple cities. Discover and
                                 </p>
-                                <a className="btn-ios btn-sec6 col-xs-6 col-sm-12" href="https://apps.apple.com/us/app/grub24/id1437256280" target="_blank">
+                                <Link className="btn-ios btn-sec6 col-xs-6 col-sm-12" href="https://apps.apple.com/us/app/grub24/id1437256280" >
                                     <img className="lazy gen_lazy_img" width="100%" data-src="https://d3o47ov0yc40fm.cloudfront.net/assets/images/logo_ios.png" src="https://d3o47ov0yc40fm.cloudfront.net/assets/images/logo_ios.png" data-was-processed="true" />
-                                </a>
-                                <a className="btn-android btn-sec6 col-xs-6 col-sm-12" href="https://play.google.com/store/apps/details?id=com.grub24.mobileapp" target="_blank">
+                                </Link>
+                                <Link className="btn-android btn-sec6 col-xs-6 col-sm-12" href="https://play.google.com/store/apps/details?id=com.grub24.mobileapp" >
                                     <img className="lazy gen_lazy_img" width="100%" data-src="https://d3o47ov0yc40fm.cloudfront.net/assets/images/logo_android.png" src="https://d3o47ov0yc40fm.cloudfront.net/assets/images/logo_android.png" data-was-processed="true" />
-                                </a>
+                                </Link>
                             </div>
                             <div className="col-xs-12 col-sm-3 col-md-6 col-lg-3  colme">
                                 <h5>Let’s do this together</h5>
@@ -35,7 +35,7 @@ function Footer() {
                                             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="2" viewBox="0 0 9 2">
                                                 <line id="Line_5" data-name="Line 5" x1="7" transform="translate(1 1)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-width="2"></line>
                                             </svg>
-                                        </a><a href="/page-riders">For Riders</a>
+                                        </a><Link href="/page-riders">For Riders</Link>
 
                                     </li>
                                     <li>
@@ -43,7 +43,7 @@ function Footer() {
                                             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="2" viewBox="0 0 9 2">
                                                 <line id="Line_5" data-name="Line 5" x1="7" transform="translate(1 1)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-width="2"></line>
                                             </svg>
-                                        </a><a href="https://grub24forbusiness.com/">For Restaurants</a>
+                                        </a><Link href="https://grub24forbusiness.com/">For Restaurants</Link>
 
                                     </li>
                                     <li>
@@ -51,7 +51,7 @@ function Footer() {
                                             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="2" viewBox="0 0 9 2">
                                                 <line id="Line_5" data-name="Line 5" x1="7" transform="translate(1 1)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-width="2"></line>
                                             </svg>
-                                        </a><a href="/page-careers">For careers</a>
+                                        </a><Link href="/page-careers">For careers</Link>
 
                                     </li>
                                     <li>
@@ -59,7 +59,7 @@ function Footer() {
                                             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="2" viewBox="0 0 9 2">
                                                 <line id="Line_5" data-name="Line 5" x1="7" transform="translate(1 1)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-width="2"></line>
                                             </svg>
-                                        </a><a href="/page-about-us">About us</a>
+                                        </a><Link href="/page-about-us">About us</Link>
 
                                     </li>
                                     <li>
@@ -67,7 +67,7 @@ function Footer() {
                                             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="2" viewBox="0 0 9 2">
                                                 <line id="Line_5" data-name="Line 5" x1="7" transform="translate(1 1)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-width="2"></line>
                                             </svg>
-                                        </a><a href="/page-blog">Blog</a>
+                                        </a><Link href="/page-blog">Blog</Link>
 
                                     </li>
                                 </ul>
@@ -80,7 +80,7 @@ function Footer() {
                                             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="2" viewBox="0 0 9 2">
                                                 <line id="Line_5" data-name="Line 5" x1="7" transform="translate(1 1)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-width="2"></line>
                                             </svg>
-                                        </a><a href="/page-terms-and-conditions">Terms &amp; Conditions</a>
+                                        </a><Link href="/page-terms-and-conditions">Terms &amp; Conditions</Link>
 
                                     </li>
                                     <li>
@@ -88,7 +88,7 @@ function Footer() {
                                             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="2" viewBox="0 0 9 2">
                                                 <line id="Line_5" data-name="Line 5" x1="7" transform="translate(1 1)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-width="2"></line>
                                             </svg>
-                                        </a><a href="/page-cookies">Cookies</a>
+                                        </a><Link href="/page-cookies">Cookies</Link>
 
                                     </li>
                                     <li>
@@ -96,7 +96,7 @@ function Footer() {
                                             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="2" viewBox="0 0 9 2">
                                                 <line id="Line_5" data-name="Line 5" x1="7" transform="translate(1 1)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-width="2"></line>
                                             </svg>
-                                        </a><a href="/page-privacy-policy">Privacy</a>
+                                        </a><Link href="/page-privacy-policy">Privacy</Link>
 
                                     </li>
                                     <li>
@@ -104,7 +104,7 @@ function Footer() {
                                             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="2" viewBox="0 0 9 2">
                                                 <line id="Line_5" data-name="Line 5" x1="7" transform="translate(1 1)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-width="2"></line>
                                             </svg>
-                                        </a><a href="/page-Acceptable-Use-Policy">Use Policy</a>
+                                        </a><Link href="/page-Acceptable-Use-Policy">Use Policy</Link>
 
                                     </li>
                                 </ul>
@@ -117,7 +117,7 @@ function Footer() {
                                             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="2" viewBox="0 0 9 2">
                                                 <line id="Line_5" data-name="Line 5" x1="7" transform="translate(1 1)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-width="2"></line>
                                             </svg>
-                                        </a><a href="/page-about-us">About us</a>
+                                        </a><Link href="/page-about-us">About us</Link>
 
                                     </li>
                                     <li>
@@ -125,7 +125,7 @@ function Footer() {
                                             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="2" viewBox="0 0 9 2">
                                                 <line id="Line_5" data-name="Line 5" x1="7" transform="translate(1 1)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-width="2"></line>
                                             </svg>
-                                        </a><a href="/page-contact">Contact us</a>
+                                        </a><Link href="/page-contact">Contact us</Link>
 
                                     </li>
                                     <li>
@@ -133,7 +133,7 @@ function Footer() {
                                             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="2" viewBox="0 0 9 2">
                                                 <line id="Line_5" data-name="Line 5" x1="7" transform="translate(1 1)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-width="2"></line>
                                             </svg>
-                                        </a><a href="/page-faq">FAQ</a>
+                                        </a><Link href="/page-faq">FAQ</Link>
 
                                     </li>
                                     <li>
@@ -141,7 +141,7 @@ function Footer() {
                                             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="2" viewBox="0 0 9 2">
                                                 <line id="Line_5" data-name="Line 5" x1="7" transform="translate(1 1)" fill="none" stroke="#e6e6e6" stroke-linecap="round" stroke-width="2"></line>
                                             </svg>
-                                        </a><a href="/cuisine">Cuisines</a>
+                                        </a><Link href="/cuisine">Cuisines</Link>
 
                                     </li>
                                     <li>
@@ -201,12 +201,12 @@ function Footer() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a target="_blank" href="https://www.google.com/search?q=grub24&amp;sxsrf=APq-WBvYAcePnfqxQgvCFYuYeKXw7DC5LA%3A1648673489747&amp;source=hp&amp;ei=0cJEYrOiK4TCgQa2-oHwCg&amp;iflsig=AHkkrS4AAAAAYkTQ4YGgfgLXf4qt9nT4H0i4F_H9Zaj2&amp;oq=grub&amp;gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECCMQJzIECCMQJzINCC4QsQMQxwEQ0QMQQzIECAAQQzIECAAQQzIICC4QgAQQsQMyBQgAEIAEMggIABCABBCxAzIICAAQgAQQsQM6CwgAEIAEELEDEIMBOhEILhCABBCxAxCDARDHARDRAzoGCAAQChBDOgsILhCABBCxAxCDAToICAAQsQMQgwE6BwgAELEDEEM6CwguEIAEELEDENQCUABY0wNgnBJoAHAAeACAAVOIAakCkgEBNJgBAKABAQ&amp;sclient=gws-wiz">
+                                    <Link href="https://www.google.com/search?q=grub24&amp;sxsrf=APq-WBvYAcePnfqxQgvCFYuYeKXw7DC5LA%3A1648673489747&amp;source=hp&amp;ei=0cJEYrOiK4TCgQa2-oHwCg&amp;iflsig=AHkkrS4AAAAAYkTQ4YGgfgLXf4qt9nT4H0i4F_H9Zaj2&amp;oq=grub&amp;gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECCMQJzIECCMQJzINCC4QsQMQxwEQ0QMQQzIECAAQQzIECAAQQzIICC4QgAQQsQMyBQgAEIAEMggIABCABBCxAzIICAAQgAQQsQM6CwgAEIAEELEDEIMBOhEILhCABBCxAxCDARDHARDRAzoGCAAQChBDOgsILhCABBCxAxCDAToICAAQsQMQgwE6BwgAELEDEEM6CwguEIAEELEDENQCUABY0wNgnBJoAHAAeACAAVOIAakCkgEBNJgBAKABAQ&amp;sclient=gws-wiz">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="19.99" height="20.04" viewBox="0 0 19.99 20.04">
                                             <path id="Vector" d="M14.18,0H5.81C2.17,0,0,2.17,0,5.81v8.37c0,3.64,2.17,5.81,5.81,5.81h8.37c3.64,0,5.81-2.17,5.81-5.81V5.81C19.99,2.17,17.82,0,14.18,0Z" fill="#292d32" opacity="0.4"></path>
                                             <path id="Vector-2" data-name="Vector" d="M4.94,3.33l.05,2.95,2.63-.04a.3.3,0,0,1,.3.35L7.57,8.5a.319.319,0,0,1-.29.25l-2.25.04.12,7.25-3,.05L2.03,8.84l-1.7.03a.3.3,0,0,1-.3-.3L0,6.67a.3.3,0,0,1,.3-.3L2,6.34,1.95,3.09A3,3,0,0,1,4.9.04L7.6,0a.3.3,0,0,1,.3.3l.04,2.4a.3.3,0,0,1-.3.3l-2.4.04A.286.286,0,0,0,4.94,3.33Z" transform="translate(6.97 3.95)" fill="#292d32"></path>
                                         </svg>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
                                     <a>
